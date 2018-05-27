@@ -1,22 +1,28 @@
 <!Doctype html>
-<html>
+<html lang="ru">
 <head>
 	<meta charset="utf-8">
 	<title>Еношкины услуги</title>
 	<link rel="icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="style.css">
 
 </head>
 <body> 
-<img src="img/лого.png" alt="лого" width="250" style="float:left" title="лого">
-<h1 style="color: purple; font-size: 50px; margin-left:390px">Блог Еношки</h1>
-<hr style="clear:both">
-	<a href="index.html">Главная</a> |
-	<a href="noticias.html">Новости</a> |
-	<b><a href="friendship_with_raccon.html">Еношкины услуги</a></b> |
-	<a href="contact.html">Контакты</a>
-<hr>
-<h2 style="text-align: center; color: purple">Услуги с Еношками</h2>
-<div style="display: flex; justify-content: space-around; font-size: 30px; text-align: center">
+<div class="header">
+		
+		<img src="img/лого.png" alt="лого" title="лого" width="250" class="logo">
+		<h1 id="title">Блог Еношки</h1>
+		
+	</div>
+	<div class="nav">
+		<a href="index.html">Главная</a> 
+		<a href="noticias.html">Новости</a> 
+		<a class="active" href="friendship_with_raccon.html">Еношкины услуги</a>
+		<a href="contact.html">Контакты</a>
+	</div>
+<section>	
+<h2 class="products-title">Услуги с Еношками</h2>
+<div  class="products">
 	<a href="prodfriends.html">
 		<img src="img/енот1.jpg" height="300" title="подружись с енотом">
 		<br> Подружись с енотом
@@ -30,19 +36,26 @@
 		<br> Покорми енота
 	</a>
 </div>
-<p>
-	Нет сомнений в том, что енотики самые милые и прикольные животные на свете! Яхууу!<br>
-	Ты тоже любишь енотиков так, как любим их мы? <br>
-	Тогда заказывай любую услугу с енотиком!
 
-</p>
-<img src="img/еноты1.jpg" width="400" title="да, да, это енотики">
-<p>
-	<i>В реальности, составитель данного сайта категорически против зоопарков и услуг аля потискать енотиков, но создавать сайт по продаже смартфонов и по доставке суши было бы жутко скучно. Гораздно веселее размещать фоточки милых енотиков.</i>
-</p>
+<div class="maintext">	
+	<p>
+		Нет сомнений в том, что енотики самые милые и прикольные животные на свете! Яхууу!<br>
+		Ты тоже любишь енотиков так, как любим их мы? <br>
+		Тогда заказывай любую услугу с енотиком!
 
-<hr>
+	</p>
+</div>	
+	<img src="img/еноты1.jpg" width="400" title="да, да, это енотики">
+<div class="maintext">		
+	<p>
+		<i>В реальности, составитель данного сайта категорически против зоопарков и услуг аля потискать енотиков, но создавать сайт по продаже смартфонов и по доставке суши было бы жутко скучно. Гораздно веселее размещать фоточки милых енотиков.</i>
+	</p>
+</div>
+</section>
+
+<footer>
 <span> &copy; 2018 еношкины заметки</span>
+</footer>
 </body>
 	
 

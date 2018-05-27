@@ -1,0 +1,116 @@
+html, body{
+	padding: 0;
+	margin:0;
+}
+body {
+	background-image: url(fon/enot11.jpg) ;
+	
+}
+.header{
+	height: 220px;
+	padding: 1px;
+	background-image: url(fon/fon6.jpg) ;
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	text-align: center;
+}
+.logo{
+	position: absolute;
+	top: -10px;
+	left: 70px;
+
+}
+#title{
+	color: purple; 
+	font-size: 50px;
+	margin-left: 30px;
+	text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+
+}
+.nav{
+	position: sticky;
+	top: 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 8px 20px;
+	display: flex; 
+	justify-content: space-around;
+}
+.nav>a{
+	display: inline-block;
+	padding: 4px;
+	text-decoration: none;
+	color: purple;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+
+
+}
+.nav>a.active{
+	color:rgba(128, 0, 128, 0.6);
+}
+.nav>a:hover{
+	color: rgb(53, 0, 53);
+}
+section{
+	padding: 50px;
+}
+footer{
+	position: relative;
+	bottom: 0;
+	background-color: rgba(0,0,0, 0.15);
+	padding: 4px 0;
+}
+h2{
+	margin-left: 100px;
+	text-shadow: 2px 2px 6px #ffffff;
+	color: purple;
+}
+.maintext{
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 5px;
+	padding: 10px;
+}
+.social{
+	display: flex;
+}
+.social>a{
+	margin-left: 5px;
+	display: block;
+	height: 40px;
+	width: 40px;
+	background-image: url(fon/social.png);
+
+}
+
+.social>a:last-child {
+	background-position: right;
+}
+.width-200{
+	width: 300px;
+}
+.products-title {
+	margin-left: 0;
+	text-align: center;
+}
+.products {
+	display: flex; 
+	justify-content: space-between; 
+	font-size: 30px; 
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 30px;
+
+}
+.products a{
+	text-decoration: none;
+	
+}
+.products a img{
+	box-shadow: 2px 2px 6px 0px #333333;
+	transition: 0.3s;
+	border-radius: 5px;
+}
+.products a:hover img{
+	transform: scale(1.1);
+	box-shadow: 2px 2px 6px 3px #333333;
+}
